@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form method="post" action="apply-now.php">
+        <input name="subject" type="hidden" value="Class" />
+        <center><fieldset style="width: 350px; text-align: justify;"><center><legend style="font-family: Tahoma; font-size: 40px;">Personal Details</center></legend>
+            <br>
+            <label> Firstname: </label> 
+            <input type="text" name="firstname" size="20"/><br> <br>
+            <label> Middlename: </label>
+            <input type="text" name="middlename" size="20"/><br> <br>
+            <label> Lastname: </label>
+            <input type="text" name="lastname" size="20"/><br> <br>
+            <br> 
+                Gender: 
+                <input name="gender" type="radio" id="gm" value="m" />
+                <label for="gm">Male</label>
+                <input name="gender" type="radio" id="gf" value="f" />
+                <label for="gf">Female</label>
+                <input name="gender" type="radio" id="go" value="o" />
+                <label for="go">Others</label>
+            <br>
+            <br>
+            <label>Date of birth:</label>
+            <input type="date" name="date of birth">
+            <br><br>
+            <label>State of origin:</label>
+            <input type="text" name="state of origin">
+            <br><br>
+            <label>L.G.A.:</label>
+            <input type="text" name="l.g.a.">
+            <br><br>
+            <label>Phone number:</label>
+            <input type="text" name="country code" value="+234" size="1"/>
+            <input type="text" name="phone number" placeholder="phone number" size="10"/> <br> <br>
+            Current address: 
+            <br>
+            <textarea name="Current address" cols="30" rows="5"></textarea>
+            <br> <br>
+            Email:
+            <input type="email" id="email" name="email"/>
+            <br><br>
+            Password: 
+            <input type="Password" id="pass" name="pass">
+            <br><br>
+            Confirm password:
+            <input type="password" id="cpass" name="cpass">
+            <br><br>
+            <input type="button" value="Submit"/>
+            <input type="button" value="Reset"/>
+        </fieldset></center>
+    </form>
+</body>
+</html>
